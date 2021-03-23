@@ -1,0 +1,3 @@
+When you comment both the join statement, the two threads won't start to execute giving us a counter of 0
+if you comment thread A for example, it will execite but will pasue it's execution until thread B is exectuted fully.
+if you comment B, it wont execute threadB since the program wont wait for thread B to finish.
